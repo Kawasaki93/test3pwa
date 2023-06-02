@@ -1,0 +1,16 @@
+{
+  "name": "Playa Juan",
+  "short_name": "Playa Juan",
+  "description": "Una descripción de la PWA",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
