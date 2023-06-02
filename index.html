@@ -4,29 +4,15 @@
   <meta charset="UTF-8">
   <title>CodePen - Sunbeds</title>
   <link rel="stylesheet" href="./style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#ffffff">
-  <link rel="manifest" href="manifest.json">
-  <link rel="icon" href="icon.png" type="image/png" sizes="512x512">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Playa Juan</title>
+  <meta name="viewport" content="width=1400px, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/service-worker.js')
-          .then(function(registration) {
-            console.log('Service Worker registrado:', registration);
-          })
-          .catch(function(error) {
-            console.log('Error al registrar el Service Worker:', error);
-          });
-      });
-    }
-  </script>
 </head>
 <body>
-<!-- partial:index.partial.html -->
+
 <div class="left_panel">
     <h3>PlayaJuan</h3>
     <div id="current_date"></div>
@@ -41,28 +27,48 @@
     <p></p>
     <p></p>
     <button class="button" onclick="handle_shopping_cart_amount(7)">7€</button>
-    <br></br>
+    <br>
     <button class="button" onclick="handle_shopping_cart_amount(1)">1€</button>
-    <br></br>
+    <br>
     <button class="button" onclick="handle_shopping_cart_amount(14)">14€</button>
-    <br></br>
+    <br>
     <p></p>
     <p></p>
     <p></p>
     <button class="button" onclick="enviarcesta()">Enviar</button>
-    <br></br><br></br>
+    <br><br>
     <button class="button" onclick="reset_shopping_cart_amount()">Reset cesta</button>
     <br><br>
     <p>Total: <span id="total_price_value">0</span>€</p>
-    <br></br>
+    <br>
     <button class="button" onclick="$.fancybox.open($('#comments'))">Abrir comenta</button>
     <textarea name="" id="comments" cols="30" rows="10" style="display: none"></textarea>
-    <br></br><br></br>
+    <br><br>
     <button class="button" onclick="handle_shopping_cart_amount(-7)">Restar -7€</button>
     <br>
     <button class="button" onclick="handle_shopping_cart_amount(-1)">Restar -1€</button>
-    <p>
-    <p></p></p>
+    <p></p>
     <button class="button" onclick="clearClick(1)">Reset Local storage</button>
-    </p>
-    <
+    <button class="button" onclick="SunbedController.reset_local_storage_except_customers(),SunbedController.restore_total_sold()">Reset Colors</button>
+</div>
+
+<div class="beach_wrapper">
+    <div class="sunbed toggle">
+        <label class="sunbed_name"></label>
+        <div>
+            <form class="form">
+                <input type="text" class="customer_name">
+            </form>
+        </div>
+    </div>
+</div>
+<br>
+
+<link rel="stylesheet" href="/static/css/sunapp.css?v=1">
+<script src="/static/js/old/sunapp.js"></script>
+
+<script src="./script.js"></script>
+
+</body>
+</html>
+``
