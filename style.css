@@ -70,7 +70,7 @@ body {
   position: relative;
 }
 
-/* line 67, ../scss/sunapp.scss */
+/* CLON 1 ORIGINAL  */
 .sunbed:nth-of-type(1) {
   background: orange;
   visibility:hidden;
@@ -139,9 +139,20 @@ body {
 .intocables {
   background: magenta;
   
+  
 }
 /* line 126, ../scss/sunapp.scss */
-.desconectados {
+.desconectadosgeneral {
+  visibility: hidden;
+}
+.desconectadosfila1 {
+  visibility: hidden;
+}
+.desconectadosfila2 {
+  visibility: hidden;
+}
+
+.desconectadosfila8 {
   visibility: hidden;
 }
 
