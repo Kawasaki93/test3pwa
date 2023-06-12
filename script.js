@@ -160,7 +160,7 @@ for (var x = 1; x < 192; x++) {
 }
 
 //CLONES COLOR NARANJA
-$("#clon_15,#clon_95,#clon_111,#clon_180,#clon_181,#clon_182,#clon_183,#clon_184,#clon_185,#clon_186,#clon_187,#clon_188,#clon_189,#clon_190,#clon_191").addClass('especiales');
+$("#clon_15,#clon_95,#clon_111,#clon_112,#clon_113,#clon_114,#clon_115,#clon_116,#clon_117,#clon_118,#clon_119,#clon_120,#clon_121,#clon_122,#clon_123,#clon_124,#clon_125,#clon_126,#clon_127,#clon_128,#clon_129,#clon_130,#clon_131,#clon_132,#clon_133,#clon_134,#clon_135,#clon_136,#clon_137,#clon_138,#clon_139,#clon_140,#clon_141,#clon_142,#clon_143,#clon_144,#clon_145,#clon_146,#clon_147,#clon_148,#clon_149,#clon_150,#clon_151,#clon_152,#clon_153,#clon_154,#clon_155,#clon_156,#clon_157,#clon_158,#clon_159,#clon_160,#clon_161,#clon_162,#clon_163,#clon_164,#clon_165,#clon_166,#clon_167,#clon_168,#clon_169,#clon_170,#clon_171,#clon_172,#clon_173,#clon_174,#clon_175,#clon_176,#clon_177,#clon_178,#clon_179,#clon_180,#clon_181,#clon_182,#clon_183,#clon_184,#clon_185,#clon_186,#clon_187,#clon_188,#clon_189,#clon_190,#clon_191").addClass('especiales');
 //CLONES DESCONECTADOS GENERALES
 $("#clon_23,#clon_35,#clon_47,#clon_59,#clon_71,#clon_83,#clon_97,#clon_98,#clon_99,#clon_100,#clon_101,#clon_102,#clon_107,#clon_119,#clon_131,#clon_143,#clon_155,#clon_167").addClass('desconectadosgeneral');
 //CLONES DESCONECTADOS PRIMERA FILA(REVELAR AÑADIENDO UN 1)
