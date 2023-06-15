@@ -164,7 +164,7 @@ $("#clon_15,#clon_95,#clon_103,#clon_104,#clon_105,#clon_106,#clon_111,#clon_112
 //CLONES DESCONECTADOS GENERALES
 $("#clon_23,#clon_35,#clon_47,#clon_59,#clon_71,#clon_83,#clon_97,#clon_98,#clon_99,#clon_100,#clon_101,#clon_102,#clon_107,#clon_119,#clon_131,#clon_143,#clon_155,#clon_167").addClass('desconectadosgeneral');
 //CLONES DESCONECTADOS PRIMERA FILA(REVELAR AÑADIENDO UN 1)
-$("#clon_84,#clon_85,#clon_86,#clon_87,#clon_88,#clon_89,#clon_90,#clon_91,#clon_92,#clon_93,#clon_94,#clon_95,#clon_96").addClass("desconectadosfila1");
+$("#clon_84,#clon_85,#clon_86,#clon_87,#clon_88,#clon_89,#clon_90,#clon_91,#clon_92,#clon_93,#clon_94,#clon_95,#clon_96").addClass("desconectadosfila11");
 //CLONES DESCONECTADOS SEGUNDA FILA(REVELAR AÑADIENDO UN 2)
 $("#clon_72,#clon_73,#clon_74,#clon_75,#clon_76,#clon_77,#clon_78,#clon_79,#clon_80,#clon_81,#clon_82,#clon_83,#clon_84").addClass("desconectadosfila22");
 //CLONES DESCONECTADOS OCTAVA FILA(REVELAR AÑADIENDO UN 8)
