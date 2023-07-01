@@ -172,7 +172,7 @@ $("#clon_1,#clon_2,#clon_3,#clon_4,#clon_5,#clon_11").addClass("desconectadosfil
 //CLONES MAGNETA CARPA
 $("#sunbed,#clon_12,#clon_13,#clon_14,#clon_108,#clon_109,#clon_110").addClass('intocables');
 //CLONES CON FORMA DE SOMBRILLA RECTANGULO REDONDO
-$("#clon_75,#clon_76,#clon_77,#clon_78,#clon_79,#clon_83,#clon_84,#clon_85,#clon_86,#clon_87,#clon_88,#clon_89,#clon_90,#clon_91,#clon_92,#clon_93,#clon_94,#clon_95,#clon_95,#clon_168,#clon_169,#clon_170,#clon_171,#clon_172,#clon_173,#clon_174,#clon_175,#clon_176,#clon_177,#clon_178,#clon_179,#clon_180,#clon_181,#clon_182,#clon_183,#clon_184,#clon_185,#clon_186,#clon_187,#clon_188,#clon_189,#clon_190,#clon_191").addClass('primerafila');
+$("#clon_75,#clon_76,#clon_77,#clon_78,#clon_79,#clon_83,#clon_84,#clon_85,#clon_86,#clon_87,#clon_88,#clon_89,#clon_90,#clon_91,#clon_92,#clon_93,#clon_94,#clon_95,#clon_96,#clon_168,#clon_169,#clon_170,#clon_171,#clon_172,#clon_173,#clon_174,#clon_175,#clon_176,#clon_177,#clon_178,#clon_179,#clon_180,#clon_181,#clon_182,#clon_183,#clon_184,#clon_185,#clon_186,#clon_187,#clon_188,#clon_189,#clon_190,#clon_191").addClass('primerafila');
 //DE LA 1ª FILA Del 84 al 95.
 //DE la 2º FILA del 72 al 83
 //DE la 3º FILA DEL 60 AL 70
