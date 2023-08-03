@@ -168,7 +168,7 @@ $("#clon_84,#clon_85,#clon_86,#clon_87,#clon_88,#clon_89,#clon_90,#clon_91,#clon
 //CLONES DESCONECTADOS SEGUNDA FILA(REVELAR AÑADIENDO UN 2)
 $("#clon_72,#clon_73,#clon_74,#clon_75,#clon_76,#clon_77,#clon_78,#clon_79,#clon_80,#clon_81,#clon_82,#clon_83,#clon_84").addClass("desconectadosfila22");
 //CLONES DESCONECTADOS OCTAVA FILA(REVELAR AÑADIENDO UN 8)
-$("#clon_1,#clon_2,#clon_3,#clon_4,#clon_5,#clon_11").addClass("desconectadosfila8");
+$("#clon_1,#clon_2,#clon_3,#clon_4,#clon_5,clon_6,#clon_11").addClass("desconectadosfila8");
 //CLONES MAGNETA CARPA
 $("#sunbed,#clon_12,#clon_13,#clon_14,#clon_108,#clon_109,#clon_110").addClass('intocables');
 //CLONES CON FORMA DE SOMBRILLA RECTANGULO REDONDO
